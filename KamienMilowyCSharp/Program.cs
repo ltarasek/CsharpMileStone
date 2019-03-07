@@ -10,8 +10,8 @@ namespace KamienMilowyCSharp
     {
         static void Main(string[] args)
         {
-            //"Czy na pewno chce Pan Kod po polsku??
-            // Klient to klient
+            //Czy na pewno chce Pan Kod po polsku??
+            //Klient to klient, nic nie poradze
 
             Ksiazki book1 = new Ksiazki("Pana", "James Honor", Typ.Horror, "Krótkie ale fajne, mogło by być lepsze\n za dużo wody i trzeba pływac", 7, 24.98m, new DateTime(1987, 12, 31), "Popierdzieli ten świat", Dostepnosc.Dostępna);
             Ksiazki book2 = new Ksiazki("Kot", "Bob Marley", Typ.Dramat, "Krótkie ale fajne, mogło by być lepsze\n za dużo wody i trzeba pływac", 7, 24.98m, new DateTime(1987, 12, 31), "Popierdzieli ten świat", Dostepnosc.Nie_dostepna);
